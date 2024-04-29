@@ -32,7 +32,7 @@ const Customer = () => {
     {
       id: 6,
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat magna vitae est consequat, et bibendum turpis convallis. Duis scelerisque sollicitudin est vitae tincidunt.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat magna vitae est consequat, et bibendum turpis convallis. ",
       stars: 4,
       name: "John Doe",
       designation: "Customer",
@@ -63,12 +63,12 @@ const Customer = () => {
         WHAT OUR CUSTOMER SAYS
       </h2>
       <div className="embla" ref={viewportRef}>
-        <div className="w-[99vw] flex flex-row">
+        <div className="w-[93.7vw] flex flex-row">
           {slides.map((slide) => (
             <div
               key={slide.id}
               style={{ flex: "0 0 50%" }}
-              className="bg-white p-2 rounded-lg mx-4 w-auto h-[300px] text-center"
+              className="bg-white p-2 rounded-lg mx-2 w-auto h-[360px] md:h-[300px] text-center"
             >
               <div className="bg-orange-500 w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <FaQuoteRight className="text-white" />
