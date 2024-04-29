@@ -4,6 +4,7 @@ import {
   FaPhoneAlt,
   FaMapMarkerAlt,
   FaArrowRight,
+  FaHamburger,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
         {/* 1st column */}
         <div className="flex flex-col mb-8 md:mb-0">
           <div className="flex items-center mb-4">
-            <img src="your_logo_path" alt="Logo" className="w-8 h-8 mr-2" />
+            <FaHamburger size={24} className="text-white mr-2" />
             <span className="text-lg font-bold">BURGER</span>
           </div>
           <p className="text-sm mb-2">
